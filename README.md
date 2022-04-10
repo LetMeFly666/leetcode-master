@@ -1,19 +1,20 @@
+Forked from [代码随想录](https://github.com/youngyangyang04/leetcode-master)
 
-👉 推荐 [在线阅读](http://programmercarl.com/) (Github在国内访问经常不稳定)         
-👉 推荐 [Gitee同步](https://gitee.com/programmercarl/leetcode-master) 
+👉 [在线阅读](http://programmercarl.com/)
 
-> 1. **介绍**：本项目是一套完整的刷题计划，旨在帮助大家少走弯路，循序渐进学算法，[关注作者](#关于作者)
-> 2. **PDF版本** ： [「代码随想录」算法精讲 PDF 版本](https://programmercarl.com/other/algo_pdf.html) 。
-> 3. **最强八股文：**：[代码随想录知识星球精华PDF](https://www.programmercarl.com/other/kstar_baguwen.html)
-> 4. **刷题顺序** ： README已经将刷题顺序排好了，按照顺序一道一道刷就可以。
-> 5. **学习社区** : 一起学习打卡/面试技巧/如何选择offer/大厂内推/职场规则/简历修改/技术分享/程序人生。欢迎加入[「代码随想录」知识星球](https://programmercarl.com/other/kstar.html) 。
-> 6. **提交代码**：本项目统一使用C++语言进行讲解，但已经有Java、Python、Go、JavaScript等等多语言版本，感谢[这里的每一位贡献者](https://github.com/youngyangyang04/leetcode-master/graphs/contributors)，如果你也想贡献代码点亮你的头像，[点击这里](https://mp.weixin.qq.com/s/tqCxrMEU-ajQumL1i8im9A)了解提交代码的方式。
-> 7. **转载须知** ：以下所有文章皆为我（[程序员Carl](https://github.com/youngyangyang04)）的原创。引用本项目文章请注明出处，发现恶意抄袭或搬运，会动用法律武器维护自己的权益。让我们一起维护一个良好的技术创作环境！
+满腔热血地按照此项目的风格写了两篇提交并提交PR后，苦等一个月都被close了，因为“为了保持代码一致性，暂不添加新的题解”
 
-<p align="center">
-<a href="programmercarl.com" target="_blank">
-	<img src="https://code-thinking-1253855093.file.myqcloud.com/pics/20211111115823.png" width="400"/>
-</a>
+因upstream拒绝添加新的题解，故若以后再写新的题解将不会向upstream提出PR
+
+# 我的题解
+
++ [LeetCode 0564.寻找最近的回文数](problems/0564.%E5%AF%BB%E6%89%BE%E6%9C%80%E8%BF%91%E7%9A%84%E5%9B%9E%E6%96%87%E6%95%B0.md)
+
++ [LeetCode 2100.适合打劫银行的日子](problems/2100.%E9%80%82%E5%90%88%E6%89%93%E5%8A%AB%E9%93%B6%E8%A1%8C%E7%9A%84%E6%97%A5%E5%AD%90.md)
+
+-------------------
+
+**以下保留自原仓库**
 
 <p align="center">
   <a href="https://mp.weixin.qq.com/s/RsdcQ9umo09R6cfnwXZlrQ"><img src="https://img.shields.io/badge/PDF下载-代码随想录-blueviolet" alt=""></a>
@@ -21,70 +22,6 @@
   <a href="https://space.bilibili.com/525438321"><img src="https://img.shields.io/badge/B站-代码随想录-orange" alt=""></a>
   <a href="https://mp.weixin.qq.com/s/QVF6upVMSbgvZy8lHZS3CQ"><img src="https://img.shields.io/badge/知识星球-代码随想录-blue" alt=""></a>
 </p>
-
-<p align="center"><strong>《代码随想录》正式出版啦！！录友专属福利，点击下方可以享五折优惠！详细可以<a href="https://programmercarl.com/other/publish.html">点击这里</a></strong></p>
-
-<p align="center">
-<a href="https://union-click.jd.com/jdc?e=&p=JF8BAMQJK1olXg8EUVhVCkkWAV8IGV8WVAICU24ZVxNJXF9RXh5UHw0cSgYYXBcIWDoXSQVJQwYAUF1UDEsQHDZNRwYlX0B9A1cfakpyYBkSRj4QKFBUEEAfaEcbM244GFIXWQYAUV5VOHsXBF9edVsUXAcDVVtdDUgnAl8IHFkdXw8KUl5fDkgRM2gIEmtIFVpKAxVtOHsUM184G2sWbURsVApfAR8XA2sLSw8cWA8LUw1ZCElHAmhdTAxGW1YBUlxtCkoWB2Y4" target="_blank">
-	<img src="https://code-thinking-1253855093.file.myqcloud.com/pics/20211213180559.png" width="400"/>
-</a>
-</p>
-
-
-# LeetCode 刷题攻略
-
-## 刷题攻略的背景
-
-很多刚开始刷题的同学都有一个困惑：面对leetcode上近两千道题目，从何刷起。
-
-大家平时刷题感觉效率低，浪费的时间主要在三点：
-
-* 找题
-* 找到了不应该现阶段做的题
-* 没有全套的优质题解可以参考
-
-其实我之前在知乎上回答过这个问题，回答内容大概是按照如下类型来刷数组-> 链表-> 哈希表->字符串->栈与队列->树->回溯->贪心->动态规划->图论->高级数据结构，再从简单刷起，做了几个类型题目之后，再慢慢做中等题目、困难题目。
-
-但我能设身处地的感受到：即使有这样一个整体规划，对于一位初学者甚至算法老手寻找合适自己的题目也是很困难，时间成本很高，而且题目还不一定就是经典题目。
-
-对于刷题，我们都是想用最短的时间**按照循序渐进的难度顺序把经典题目都做一遍**，这样效率才是最高的！
-
-所以我整理了leetcode刷题攻略：一个超级详细的刷题顺序，**每道题目都是我精心筛选，都是经典题目高频面试题**，大家只要按照这个顺序刷就可以了，**你没看错，README已经把题目顺序都排好了，文章顺序就是刷题顺序！挨个刷就可以，不用自己再去题海里选题了！**
-
-而且每道题目我都写了的详细题解（图文并茂，难点配有视频），力扣上我的题解都是排在对应题目的首页，质量是有目共睹的。
-
-**那么现在我把刷题顺序都整理出来，是为了帮助更多的学习算法的同学少走弯路！**
-
-如果你在刷leetcode，强烈建议先按照本攻略刷题顺序来刷，刷完了你会发现对整个知识体系有一个质的飞跃，不用在题海茫然的寻找方向。
-
-<div align="center"><strong>最新文章会首发在公众号「代码随想录」，扫码看看吧，你会发现相见恨晚！</strong></img></div>
-
-<div align="center"><img src='./pics/公众号二维码.jpg' width=150 alt=''> </img></div> 
-
-## 如何使用该刷题攻略
-
-电脑端还看不到留言，大家可以在公众号[「代码随想录」](https://img-blog.csdnimg.cn/20201124161234338.png)，左下角有「刷题攻略」，这是手机版刷题攻略，看完就会发现有很多录友（代码随想录的朋友们）在文章下留言打卡，这份刷题顺序和题解已经陪伴了上万录友了，同时也说明文章的质量是经过上万人的考验！
-
-欢迎每一位学习算法的小伙伴加入到这个学习阵营来！
-
-**目前已经更新了，数组-> 链表-> 哈希表->字符串->栈与队列->树->回溯->贪心，八个专题了，正在讲解动态规划！**
-
-在刷题攻略中，每个专题开始都有理论基础篇，并不像是教科书般的理论介绍，而是从实战中归纳需要的基础知识。每个专题结束都有总结篇，最这个专题的归纳总结。
-
-如果你是算法老手，这篇攻略也是复习的最佳资料，如果把每个系列对应的总结篇，快速过一遍，整个算法知识体系以及各种解法就重现脑海了。
-
-
-目前「代码随想录」刷题攻略更新了：**200多篇文章，精讲了200道经典算法题目，共60w字的详细图解，部分难点题目还搭配了20分钟左右的视频讲解**。
-
-**这里每一篇题解，都是精品，值得仔细琢磨**。
-
-我在题目讲解中统一使用C++，但你会发现下面几乎每篇题解都配有其他语言版本，Java、Python、Go、JavaScript等等，正是这些[热心小伙们](https://github.com/youngyangyang04/leetcode-master/graphs/contributors)的贡献的代码，当然我也会严格把控代码质量。 
-
-**所以也欢迎大家参与进来，完善题解的各个语言版本，拥抱开源，让更多小伙伴们收益**。
-
-准备好了么，刷题攻略开始咯，go go go！
-
----------------------------------------------
 
 ## 前序
 
@@ -554,33 +491,3 @@
 * [二叉树理论基础](https://www.bilibili.com/video/BV1Hy4y1t7ij)
 * [二叉树的递归遍历](https://www.bilibili.com/video/BV1Wh411S7xt)
 * [二叉树的非递归遍历（一）](https://www.bilibili.com/video/BV15f4y1W7i2)
-
-（持续更新中....）
-
-# 贡献者 
-
-[点此这里](https://github.com/youngyangyang04/leetcode-master/graphs/contributors)查看LeetCode-Master的所有贡献者。感谢他们补充了LeetCode-Master的其他语言版本，让更多的读者收益于此项目。
-
-# 关于作者
-
-大家好，我是程序员Carl，哈工大师兄，《代码随想录》作者，先后在腾讯和百度从事后端技术研发，CSDN博客专家。对算法和C++后端技术有一定的见解，利用工作之余重新刷leetcode。 
-
-加入「代码随想录」刷题小分队（微信群），可以扫下方二维码加我微信。
-
-如果是已工作，备注：姓名-城市-岗位-组队刷题。如果学生，备注：姓名-学校-年级-组队刷题。**备注没有自我介绍不通过哦**
-
-<div align="center"><img src="https://code-thinking-1253855093.file.myqcloud.com/pics/20220102204804.png" data-img="1" width="200" height="200"></img></div>
-
-
-
-# 公众号
-
-更多精彩文章持续更新，微信搜索：「代码随想录」第一时间围观，关注后回复：666，可以获得我的所有算法专题原创PDF。
-
-**「代码随想录」每天准时为你推送一篇经典面试题目，帮你梳理算法知识体系，轻松学习算法！**，并且公众号里有大量学习资源，也有我自己的学习心得和方法总结，更有上万录友们在这里打卡学习。
-
-**来看看就知道了，你会发现相见恨晚！**
-
-<a name="公众号"></a>
-<div align="center"><img src="https://code-thinking-1253855093.file.myqcloud.com/pics/20211026122841.png" data-img="1" width="650" height="500"></img></div>
-
